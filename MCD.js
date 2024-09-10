@@ -125,7 +125,7 @@ function finalizarAtendimento(atendimentoId) {
 
 // Função para enviar dados para o servidor
 function enviarDadosParaServidor(id, placa, operacao, localizacao, status, tempo) {
-    fetch('http://localhost:3000/finalizar-atendimento', {
+    fetch('18.231.218.80:3000/finalizar-atendimento', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
