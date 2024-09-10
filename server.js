@@ -38,8 +38,3 @@ app.post('/finalizar-atendimento', async (req, res) => {
         res.status(500).json({ error: 'Erro ao finalizar atendimento' });
     }
 });
-
-// Inicia o servidor
-app.listen(port, () => {
-    console.log(`Servidor rodando na porta ${port}`);
-});
